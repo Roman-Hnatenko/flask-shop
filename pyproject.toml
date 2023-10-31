@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flask-shop"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "flask_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+flask-admin = "^1.6.1"
+flask-security-too = "^5.3.2"
+sqlalchemy = "^2.0.22"
+celery = "^5.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
